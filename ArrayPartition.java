@@ -13,7 +13,7 @@
 import java.util.Arrays;
 
 public class ArrayPartition {
-
+ 
     public static int arrayPairSum(int[] nums) {
         Arrays.sort(nums);
 
@@ -32,3 +32,4 @@ public class ArrayPartition {
         System.out.println("Maximum sum of min pairs: " + result);
     }
 }
+
